@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <header>Weather Dashboard</header>
+        <!-- body-row holds left and right side -->
+        <div class="body-row">
+            <!-- left content -->
+            <aside class="left-content">
+                <form id="search-form" class="search-card">
+                    <label class="form-label" for="city-name">Search for City:</label>
+                    <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+                    <button type="submit" class="btn">Search</button>
+                </form>
+                <div id="searches"></div>
+            </aside>
+            <!-- right content -->
+            <div class="right-content">
+                <div class="location-weather">
+                    <h1 id="city-name-header"></h1>
+                    <p id="temp">Temp:</p>
+                    <p id="wind">Wind:</p>
+                    <p id="humidity">Humidty:</p>
+                    <p id="uv-index">UV Index:</p>
+                </div>
+                <div class="five-day-weather">
+                    <h1 id="daily-header">5-Day Forcast:</h1>
+                    <div id="daily-row">
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>
