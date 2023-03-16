@@ -20,5 +20,8 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
+![](assets/images/weather-dashboard.png)
+
+https://jeonghs1024.github.io/weather-dashboard/
 
 
